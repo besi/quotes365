@@ -1,7 +1,8 @@
 class QuotesController < ApplicationController
 
   def today
-     title = "HEUTE"
+    @current_date = Date.today.strftime("%d.%m.%Y")
+    @quote = Quote.where(date: Date.today).first
   end
 
   def yesterday
