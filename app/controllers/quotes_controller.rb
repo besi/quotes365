@@ -6,7 +6,9 @@ class QuotesController < ApplicationController
   end
 
   def yesterday
-
+    @current_date = Date.yesterday.strftime("%d.%m.%Y")
+    @quote = Quote.where(date: Date.yesterday).first
+    render 'today'
   end
 
 end
