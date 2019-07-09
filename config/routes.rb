@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'quotes#today'
   get 'yesterday' => 'quotes#yesterday'
+  get 'today' => 'quotes#today'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
