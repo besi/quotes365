@@ -50,3 +50,6 @@ gem 'rails_12factor'
 gem 'devise'
 gem 'country_select'
 gem 'activeadmin'
+
+
+gem 'puma'
