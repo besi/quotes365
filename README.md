@@ -1,2 +1,2 @@
 # Quotes 365
-show a new quote evrey day
+Show a new quote every day
