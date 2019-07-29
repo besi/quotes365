@@ -1,2 +1,3 @@
-# Quotes 365
-Show a new quote every day
+# [Quotes 365](https://github.com/besi/quotes365)
+
+One quote per day.
