@@ -3,6 +3,7 @@ json.(@quote,
     :quote,
     :date,
     :author,
+    :image_url,
     :created_at,
     :updated_at
 )
