@@ -1,6 +1,17 @@
 # Quotes 365
 Show a new quote every day
 
+## Development
+
+Start the server
+
+    cd quotes365
+    bin/rails server
+
+Open <http://localhost:3000> 
+
+Admin interface: <http://localhost:3000/admin>
+
 
 ## Installation
 
