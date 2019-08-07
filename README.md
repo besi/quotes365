@@ -12,6 +12,11 @@ Open <http://localhost:3000>
 
 Admin interface: <http://localhost:3000/admin>
 
+Skip MySQL Password for local development:
+
+Add `skip-grant-tables` to the `mysqld` section in the following file:
+
+    /etc/mysql/mysql.conf.d/mysqld.cnf
 
 ## Installation
 
