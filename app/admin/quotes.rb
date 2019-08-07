@@ -1,5 +1,5 @@
 ActiveAdmin.register Quote do
-  permit_params :date, :quote, :author, :image_url, :created_at, :updated_at
+  permit_params :date, :quote_de, :author, :image_url, :created_at, :updated_at
 
   sidebar 'Image', only: :show do
     image_tag quote.image_url
@@ -10,7 +10,7 @@ ActiveAdmin.register Quote do
 
     f.inputs "Details for ##{resource.id}" do
       f.input :date, as: :datepicker
-      f.input :quote, as: :text, input_html: {rows: 4}
+      f.input :quote_de, as: :text, input_html: {rows: 4}
       f.input :author
       f.input :image_url
     end

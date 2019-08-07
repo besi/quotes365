@@ -1,6 +1,6 @@
 json.(@quote,
     :id,
-    :quote,
+    :quote_de,
     :date,
     :author,
     :image_url,

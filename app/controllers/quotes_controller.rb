@@ -15,6 +15,6 @@ class QuotesController < ApplicationController
   end
 
   def show_404
-    @quote = Quote.new(quote: 'I don\'t think therefore I aren\'t', author: '404')
+    @quote = Quote.new(quote_de: 'I don\'t think therefore I aren\'t', author: '404')
   end
 end
